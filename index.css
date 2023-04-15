@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  background-color: blueviolet;
+  background-color: rgb(100, 100, 100);
 }
 
 .list-menu {
@@ -22,20 +22,24 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 10px;
+  margin: 16px;
   padding: 0;
 }
 
 .list-menu-item {
-  width: 100px;
-  height: 30px;
+  max-width: 200px;
+  min-height: 30px;
   border-radius: 50px;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 4px 12px;
   list-style-type: none;
-  background-color: bisque;
+  background-color: rgb(130, 130, 130);
 }
 
 .main {
   flex-grow: 1;
-  background-color: rgb(12, 6, 63);
+  background-color: rgb(180,180, 180);
 }
 
 .list-content {
@@ -43,6 +47,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;   
   gap: 20px; 
+  margin: 20px;
   padding: 0;    
 }
 
@@ -53,16 +58,17 @@ body {
   line-height: 150px;
   color: rgb(255, 255, 255);
   list-style-type: none;
-  background-color: darkgoldenrod;
+  background-color: rgb(180, 130, 0);
 }
 
 .footer {
-  background-color: brown;
+  background-color: rgb(50, 50, 50);
 }
 
 .title {
   margin: 20px 0px;
   font-size: 45px;
   text-transform: uppercase;
+  overflow: hidden;
   color: rgb(255, 255, 255);
 }
